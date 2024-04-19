@@ -1,0 +1,97 @@
+.user-page {
+    padding: 3rem 0;
+    background-color: #f8f9fa;
+  }
+  
+  .user-card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid #eeeeee;
+  }
+  
+  .user-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+  }
+  
+  .user-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .edit-profile-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .user-info {
+    padding: 2rem;
+    border-bottom: 1px solid #eeeeee;
+  }
+  
+  .user-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .user-detail-icon {
+    font-size: 1.2rem;
+    color: #666;
+    margin-right: 0.75rem;
+  }
+  
+  .user-detail span {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .user-actions {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logout-btn {
+    font-size: 1.1rem;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  @media (max-width: 767px) {
+    .user-icon {
+      font-size: 2.5rem;
+    }
+  
+    .user-name {
+      font-size: 1.5rem;
+    }
+  
+    .edit-profile-btn {
+      font-size: 0.9rem;
+      padding: 0.4rem 0.8rem;
+    }
+  
+    .user-detail-icon {
+      font-size: 1rem;
+      margin-right: 0.5rem;
+    }
+  
+    .user-detail span {
+      font-size: 1rem;
+    }
+  
+    .logout-btn {
+      font-size: 1rem;
+      padding: 0.6rem 1.2rem;
+    }
+  }
